@@ -70,5 +70,6 @@
   <catalogs>Catalog.Модули</catalogs>
   <catalogs>Catalog.УдалитьПользователи</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Производители</catalogs>
   <documents>Document.ПриемНаРаботу</documents>
 </mdclass:Configuration>
