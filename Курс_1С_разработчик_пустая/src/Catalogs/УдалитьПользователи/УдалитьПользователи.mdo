@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0206893f-2a52-48d9-930a-adb63d0ce57c">
+  <producedTypes>
+    <objectType typeId="bc03e57c-9702-4de3-b409-9289f741bbfd" valueTypeId="a5325749-c204-4b9a-9be5-a03bafc3dad9"/>
+    <refType typeId="261398e4-c85a-4899-8ecf-ba664231e2d7" valueTypeId="3a5747b6-178e-47b8-9d0e-ce61cea34996"/>
+    <selectionType typeId="ff34916e-8e54-427d-bf1f-4fc79e14a873" valueTypeId="4294681b-302a-4bab-a0a6-1418c10eb45e"/>
+    <listType typeId="cb07b16e-9f92-452a-ba5a-9941389a00df" valueTypeId="0f30d199-ac30-4459-b5ad-79cadd7818df"/>
+    <managerType typeId="2d54f130-2c77-4861-b28e-5f9344bca90b" valueTypeId="f667bf38-fed9-4f54-ac7f-0282a67918b6"/>
+  </producedTypes>
+  <name>УдалитьПользователи</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не исп) Пользователи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УдалитьПользователи.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УдалитьПользователи.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

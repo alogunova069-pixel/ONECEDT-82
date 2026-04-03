@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4484d4e-70f3-44a6-92b2-a13cc655b756">
+  <producedTypes>
+    <objectType typeId="e99e962f-9426-4f7f-a950-ad3a47991d04" valueTypeId="961fbbc6-6008-4a92-9620-3746b68fc2ac"/>
+    <refType typeId="28a4c8c8-0e55-40f3-ae02-0f1483000b3f" valueTypeId="febbdcaf-9e46-40bd-8e36-c4c5f4115a5d"/>
+    <selectionType typeId="6e7cc4a5-dd0a-4857-9c0c-d419c8baede6" valueTypeId="f3cbf190-7f63-4a09-90f7-8a4ed4b528e4"/>
+    <listType typeId="5751c369-d1a9-4e9e-a58f-dab067b543ca" valueTypeId="c7c979a4-e9a6-4b76-b6f0-f440725d63a9"/>
+    <managerType typeId="ba062969-10de-4256-9125-344d197338e8" valueTypeId="490a8b40-ce96-4ecd-938f-e1b0bc81b81f"/>
+  </producedTypes>
+  <name>Модули</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модули</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Модули.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Модули.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Модуль</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>2</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Модули.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="785bc945-b137-4f97-9e75-e00c4f6ec1ac">
+    <name>Блок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блок</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Блоки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b395c6a9-3b60-4e69-8479-54192f7a49bc">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

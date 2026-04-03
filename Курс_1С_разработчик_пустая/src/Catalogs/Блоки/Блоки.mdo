@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa42c69b-e6b8-4158-a1f1-df4f10d1ddf3">
+  <producedTypes>
+    <objectType typeId="181e97de-3484-40e5-b7f8-0fb19731bb44" valueTypeId="cee69901-9eca-4610-a8af-7890f6506598"/>
+    <refType typeId="a918c13a-a69c-4004-b43c-092b5c641f81" valueTypeId="697328db-a0f7-40a7-aed9-583e6e2dc787"/>
+    <selectionType typeId="3cc9a5d2-eee7-4428-9efb-6fc54843e393" valueTypeId="42dda57d-31c2-4a61-bebd-f7e9d583f6db"/>
+    <listType typeId="9d67c88b-c51c-4f1b-bed1-a971a1e2f391" valueTypeId="6d2a392d-445a-4e13-8127-e9e0d0c6f149"/>
+    <managerType typeId="5ab06ff8-ba33-401a-b2b5-9a807a7c8656" valueTypeId="23514c71-485e-49c8-90a0-ed291f9b06c3"/>
+  </producedTypes>
+  <name>Блоки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Блоки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Блоки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Блоки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Блок</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>1</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
