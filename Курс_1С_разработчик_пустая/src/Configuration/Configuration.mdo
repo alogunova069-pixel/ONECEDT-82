@@ -72,4 +72,5 @@
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Производители</catalogs>
   <documents>Document.ПриемНаРаботу</documents>
+  <documents>Document.ПоступлениеТоваров</documents>
 </mdclass:Configuration>
